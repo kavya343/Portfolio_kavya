@@ -8,10 +8,10 @@ import { TypeAnimation } from 'react-type-animation';
 
 const HeroSection = () => {
   return (
-    <section>
+    <section className='lg:py-16'>
         <div className='grid grid-cols-1 sm:grid-cols-12'>
             <div className='col-span-7 place-self-center text-center sm:text-left'>
-        <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
+        <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl font-extrabold">
             <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-pink-500'>Hello, I'm </span>
             <br />
             <TypeAnimation
@@ -48,8 +48,8 @@ const HeroSection = () => {
               src='/images/hero-image.jpg'
               alt='hero image'
               className='absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
-              width={230}
-              height={230}
+              width={250}
+              height={250}
               />
               </div>
             </div>
