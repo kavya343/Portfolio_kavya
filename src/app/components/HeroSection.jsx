@@ -37,8 +37,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          Welcome to my portfolio! I'm a passionate web developer with a strong background in creating dynamic and responsive websites and applications.
-          </p>
+Welcome to my portfolio! I'm a passionate web developer with a strong background in creating dynamic and responsive websites and applications.</p>
           <div>
             <Link
               href="/#contact"
